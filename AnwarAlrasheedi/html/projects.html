@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    /* Styles for headings and layout */
+    h1, h2, h4 {
+      color: #c091f5; /* Special color for headings */
+    }
+    h1 a, h2 a, h4 a {
+      color: #c091f5;
+      text-decoration: none;
+    }
+    h1 a:hover, h2 a:hover, h4 a:hover {
+      text-decoration: underline;
+    }
+
+    /* Centering the image and paragraph */
+    .center-content {
+      text-align: center;
+    }
+
+    .project-image {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+
+    /* Footer styling */
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background-color: #333;
+      color: #ccc;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Typing effect for the whole paragraph */
+    .typing {
+      font-family: monospace;
+      font-size: 1.5em;
+      color: #c091f5;
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #c091f5; /* Cursor */
+      animation: typing 4s steps(40, end) infinite, blink 0.75s step-end infinite;
+      width: 0;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <a href="home_v2.html">
+            <img src="/images/mrrobot.jpeg" height="25" alt="ANWAR Logo"> </a>
+        </div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="/html/home_v2.html">Home</a></li>
+        <li><a href="/html/about_v2.html">About</a></li>
+        <li><a href="/html/projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="center-content">
+    <!-- Displaying the uploaded image centered above the text -->
+    <img src="https://media.giphy.com/media/iTWomlMFQXIA5DN0VZ/giphy.gif?cid=ecf05e47naax96ukmd7ckn38mo332b8pr8jis3o1fhy7bv9o&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="project-image" alt="Project Preview">
+    <h1 class="typing">You'll get My Projects here soon..</h1>
+  </main>
+
+  <footer>
+    <h6>Copyright &copy; ANWAR 2024</h6>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
